@@ -167,10 +167,7 @@ void loop() {
      
            if(totalInterruptCounter>60)
     {   totalInterruptCounter=0;
-      s = "Spo2 ";
-      s+=random(98,100);
-      s+="  HR ";
-      s+=random(60,80);
+     
     }
     if(button1.pressed)
 {       Serial.printf("Button 1 has been pressed %u times\n", button1.numberKeyPresses);
